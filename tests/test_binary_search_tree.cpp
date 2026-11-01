@@ -1,7 +1,7 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 
-#include "project/binary_search_tree.h"
+#include "../include/project/binary_search_tree.h"
 
 #include <stdexcept>
 #include <vector>
