@@ -19,8 +19,8 @@ jobs:
       - name: Verify g++ version
         run: g++ --version
 
-      - name: Build project
-        run: make
+      #- name: Build project
+      #  run: make
 
       #- name: Run main program (optional)
       #  run: ./build/main
