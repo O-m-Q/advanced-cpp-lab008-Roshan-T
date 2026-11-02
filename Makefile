@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -std=c++17 -Wall -Itests -Isrc -Iinclude
+CXXFLAGS := -std=c++17 -Wall -g -O0 -fsanitize=address -fno-omit-frame-pointer -Itests -Isrc -Iinclude
 
 SRC_DIR := src
 TEST_DIR := tests
@@ -50,4 +50,3 @@ run: $(EXECUTABLE)
 
 clean:
 	rm -rf $(BUILD_DIR)
-
